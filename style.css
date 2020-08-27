@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 20px;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar a{
+    margin: 20px 10px 0 20px;
+    text-decoration: none;
+    float: right;
+    color: #6e7274;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    transition: 1s ease;
+}
+.sign-up-link{
+    background: red;
+    color: white;
+    text-decoration: underline !important;
+}
+
+.nav-img{
+    position: absolute;
+    right: 0px;
+   
+}
+
+.title {
+    margin-top: 80px;
+    padding: 30px 50px;
+    background: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.info{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.info p{
+    color: #cccccc;
+    padding-top: 15px;
+    font-size: 21px;
+}
+
+#gold{
+    color: rgba(116, 103, 31, 0.705);
+    padding-bottom: 10px;
+}
+.highlight{
+    color: #eb1265;
+}
+
+.hero {
+    margin-top: 15px;
+    padding: 20px;
+    height: 50vh;
+    background: black;
+    color: white;
+}
+.hero-heading{
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.hero-info{
+    font-size: 25px;
+}
+
+.desc{
+    margin-left: 10px;
+}
+
+.hero-img {
+    height: 100%;
+    width: 40%;
+    float: left;
+    padding-right: 20px;
+}
+
+.images{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sect-info{
+    margin: 30px auto;
+    width: 90%;
+    font-size: 21px;
+}
+
+.about{
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: white;
+}
+
+.column{
+    padding: 20px 0px 10px 0px;
+    width: 20%;
+}
+
+.column ul{
+    padding-left:30px;
+}
+
+.social-media-icons{
+    padding-top: 30px;
+}
+
+.social-media-icons img{
+    height: 30px;
+    width: 30px;
+}
+
+footer{
+    height:30px;
+    position: relative;
+    background: #6e7274;
+}
+
+.align-footer-items{
+    padding-top:5px;
+}
+
+.footer-links{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
