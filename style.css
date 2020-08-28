@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 header{
     margin-top: 20px;
     position: relative;
@@ -18,6 +20,7 @@ header{
     text-decoration: none;
     float: right;
     color: #6e7274;
+    transition: all 1s ease;
 }
 
 .navbar a:hover{
@@ -47,12 +50,47 @@ header{
 .info{
     text-align: center;
     padding-top: 20px;
+    
 }
+
+/* .padding-info{
+    padding-bottom: 100px;
+} */
 
 .info p{
     color: #cccccc;
     padding-top: 15px;
     font-size: 21px;
+}
+
+.info-services-images{
+    width: 50%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.info-services-images figure{
+    font-size: 20px;
+}
+
+figure img{
+    height: 200px;
+    width: 150px;
+    margin-left: 10px;
+
+}
+
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-space-around img{
+    height:5%;
+    width: 5%;
+    padding-top: 60px;
 }
 
 #gold{
@@ -66,19 +104,19 @@ header{
 .hero {
     margin-top: 15px;
     padding: 20px;
-    height: 50vh;
+    height: 50%;
     background: black;
     color: white;
 }
 .hero-heading{
     margin-left: 5px;
     padding: 10px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
 .hero-info{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .desc{
